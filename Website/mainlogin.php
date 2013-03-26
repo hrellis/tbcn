@@ -18,7 +18,7 @@
 		</div>
 		<div id="column2">
 			<h2>Login</h2>
-			<form name="login">
+			<form id="form1" name="form1" method="post" action="login.php">
 				<table>
 					<tr>
 						<td>Username: </td>
