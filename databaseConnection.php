@@ -4,20 +4,19 @@
     *Connects to the database
  -->
  <?php
-//login to database server
-@ $db = mysql_pconnect('localhost','name','moodmusic1');
+//login credentials
+$host="arlia.computing.dundee.ac.uk";
+$port=3306;
+$socket="";
+$user="12ac3u11";
+$password="";
+$dbname="";
 
-//report error and quit if login failed
-if(!db)
-{
-	$_SESSION['alert'] = 'Error: Could not login to database server. Please try again later.';
-	exit;	
-}
-else 
-{
-	//print "Logged in to database server";
-}
+//connect using the above and report error if fail
+$connection = new mysqli($host, $user, $password, $dbname, $port, $socket)
+	or die ('Could not connect to the database server. Error:' . mysqli_connect_error());
 
-//choose the correct database
-$db_found = mysql_select_db('sunnyPop',$db);
+//closes the database connection
+//$con->close();
+
 ?>
