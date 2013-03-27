@@ -21,6 +21,6 @@ if($password == $passwordConfirm)
 		header('location:success_register.php');
 	}
 } else {
-	print "passwords don't match";
+	print "The passwords you have entered do not match.";
 }	
 ?>
