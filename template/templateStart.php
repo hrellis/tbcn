@@ -21,24 +21,21 @@
 
 <body>
     <div id="wrapper">
-    
-        <?php
-            //include the database connection details once to prevent repeated requests on server
-            include_once "databaseConnection.php";
-        ?>
         <div id="header">
             <div id="logo">
-                <h1>Teddy Bears Club Nursery!</h1>
-            </div><!--logo-->
+                <h1><a href="/">Teddy Bear Club Nursery</a></h1>
+            </div>
         </div><!--header-->
         
-        <!--left blank for colour band and for future links, if wanted-->
+         <?php
+			//include the database connection details once to prevent repeated requests on server
+			//include_once "databaseConnection.php";
+        ?>
+        
         <div id="menu">
             <ul>
-                <li>Home</li>
-                <li>Fees</li>
-                <li>       </li>
-                <li>       </li>
-                <li>       </li>
+                <li><a href="http://www.teddybearclubnursery.co.uk/">Nursery Homepage</a></li>
+                <li><a href="index.php">Login</a></li>
+                <li class="current_page_item"><a href="/registerform.php">Register</a></li>
             </ul>
         </div><!--menu-->

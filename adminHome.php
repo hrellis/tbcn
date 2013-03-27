@@ -1,4 +1,4 @@
-<html>
+<!--<html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css">
 <title>Register a new member of staff</title>
@@ -16,18 +16,26 @@
 			<li class="current_page_item"><a href="#">Add Staff</a></h1>
 			<li><a href="logout.php">Logout</a></h1>
 		</ul>
-	</div>
+	</div>-->
+<?php
+	include "template/templateStart.php";
+?>
+
 	<div id="three-columns">
-		<div id="column1">
+        
+        <div id="column1">
 			<p></p>
-		</div>
+		</div><!--col1-->
+        
 		<div id="column2">
 			<p></p>
-		</div>
+		</div><!--col2-->
+        
 		<div id="column3">
 			<p></p>
-		</div>
+		</div><!--col3-->
+        
 	</div>
-</div>
-</body>
-</html>
+<?php
+	include "template/templateEnd.php";
+?>
