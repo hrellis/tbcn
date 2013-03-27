@@ -1,10 +1,10 @@
 <?php
 //*********Server Information to establish a connection ****** 
   
-$host = 'localhost'; // Server Host Name 
-$user = 'rossstrachan'; // Server User Name 
-$password = 'tester'; // Server Password 
-$db = 'test'; // Your Database 
+$host = 'arlia.computing.dundee.ac.uk'; // Server Host Name 
+$user = '12ac3u11'; // Server User Name 
+$password = 'cba123'; // Server Password 
+$db = '12ac3d11'; // Your Database 
   
 //=======following function to establish a connection with server======================== 
 $link = mysql_connect($host,$user,$password) or die('Error in Server information');
@@ -20,7 +20,7 @@ $password = md5($password);
   
 //*********retrieving data from Database********** 
   
-$query = "select * from members where username='$userName' and password='$password'"; 
+$query = "select * from login where username='$userName' and password='$password'"; 
   
 $res = mysql_query($query); //Executing query and saving result in Result Set 
   

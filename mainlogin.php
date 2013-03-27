@@ -11,6 +11,13 @@
 			<h1><a href="#">Teddy Bear Club Nursery</a></h1>
 		</div>
 	</div>
+	<div id="menu">
+		<ul>		
+			<li><a href="http://www.teddybearclubnursery.co.uk/">Nursery Homepage</a></li>
+			<li class="current_page_item"><a href="#">Login</a></li>
+			<li><a href="registerform.php">Register</a></li>
+		</ul>
+	</div>
 	<div id="three-columns">
 		<div id="column1">
 			<p></p>
