@@ -13,7 +13,7 @@
 	<div id="menu">
 		<ul>
 			<li><a href="http://www.teddybearclubnursery.co.uk/">Nursery Homepage</a></li>
-			<li><a href="mainlogin.php">Login</a></li>
+			<li><a href="index.php">Login</a></li>
 			<li class="current_page_item"><a href="#">Register</a></li>
 		</ul>
 	</div>
