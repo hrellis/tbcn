@@ -13,7 +13,7 @@
 	<div id="menu">
 		<ul>
 			<li class="current_page_item"><a href="#">Add Staff</a></h1>
-			<li><a href="#">Logout</a></h1>
+			<li><a href="logout.php">Logout</a></h1>
 		</ul>
 	</div>
 	<div id="three-columns">
