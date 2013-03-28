@@ -34,12 +34,15 @@
 	  
 	//***if the userName and password matches then register a session and redrect user to the Successfull.php 
 	{ 
-	session_register("userName"); 
-	session_register("password"); 
-	header("location:success.php"); 
+		session_register("userName"); 
+		session_register("password"); 
+		header("location:success.php"); 
 	} 
 	else 
 	{ 
+		include 'template/templateStart.php';
+		
 		echo 'Data Does Not Match <br /> Re-Enter UserName and Password'; 
+		include 'template/templateEnd.php';
 	} 
 ?>

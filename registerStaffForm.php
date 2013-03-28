@@ -9,16 +9,17 @@
 		<div id="logo">
 			<h1><a href="#">Teddy Bear Club Nursery Admin</a></h1>
 		</div>
-	</div>
+	</div>-->
+<?php
+	include "template/templateStart.php";
+?>
 	<div id="menu">
 		<ul>
 			<li class="current_page_item"><a href="#">Add Staff</a></h1>
 			<li><a href="logout.php">Logout</a></h1>
 		</ul>
-    </div><!--menu--\>-->
-<?php
-	include "template/templateStart.php";
-?>
+    </div><!--menu-->
+
 
 	<div id="three-columns">
 		
@@ -27,7 +28,7 @@
         </div><!--col1-->
         
         <div id="column2">
-			<h2>Login</h2>
+			<h2>Register Staff</h2>
 			<form action="registerStaff.php" method="post">
 				<table>
 					<tr>
@@ -43,18 +44,18 @@
 					<tr>
                         <td>Role: </td>
                         <td>
-                        <select name="role">
-                            <option value="admin">Admin</option>
-                            <option value="other">Other</option>
-                        </select>
+                            <select name="role">
+                                <option value="admin">Admin</option>
+                                <option value="other">Other</option>
+                            </select>
                         </td>
 					</tr>
                     
 					<tr>
                         <td>Currently Employed: </td>
                         <td>
-                        <input type="radio" name="employed" id="employed" value="1" />Yes
-                        <input type="radio" name="employed" id="employed" value="0" />No
+                            <input type="radio" name="employed" id="employed" value="1" />Yes
+                            <input type="radio" name="employed" id="employed" value="0" />No
                         </td>
 					</tr>
                     

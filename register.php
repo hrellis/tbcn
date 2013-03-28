@@ -3,14 +3,16 @@
 ?>
 
 <?php
-	//get the connection details
+	/*?>//get the connection details
 	$host = 'arlia.computing.dundee.ac.uk';
 	$user = '12ac3u11';
 	$password = 'cba123';
 	$database = '12ac3d11';
 	
 	$conn = mysql_connect($host,$user,$password) or die('Server Information is not Correct');
-	mysql_select_db($database,$conn) or die('Database Information is not correct');
+	mysql_select_db($database,$conn) or die('Database Information is not correct');<?php */
+	
+	include 'databaseConnection.php';
 	
 	//set up the field variables
 	$username = $_POST['txtUser'];

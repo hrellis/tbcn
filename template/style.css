@@ -506,10 +506,17 @@ a:hover {
 	font-size: 20px;
 }
 
-
 #main
 {
 	padding-left: 180px;
 	width:100px;
 		
+}
+
+#feedbackBar
+{
+	background-color:#6CF;
+	text-align:center;
+	font-size:12px;
+	color:#FFF;	
 }
