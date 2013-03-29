@@ -10,8 +10,9 @@
 	  <div id="menu">
             <ul>
                 <li><a href="http://www.teddybearclubnursery.co.uk/">Nursery Homepage</a></li>
-                <li><a href="index.php">Login</a></li>
+                <li class="current_page_item"><a href="index.php">Login</a></li>
                 <li><a href="registerform.php">Register</a></li>
+                <li><a href="registerStaffForm.php">Register Staff</a></li>
             </ul>
         </div><!--menu-->
         
