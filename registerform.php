@@ -1,5 +1,5 @@
 <?php
-	include "template/templateStart.php";
+	include "templateStart.php";
 ?>
 	<div id="three-columns">
 		
@@ -38,5 +38,5 @@
 		
 	</div><!--three columns-->
 <?php
-	include "template/templateEnd.php";
+	include "templateEnd.php";
 ?>

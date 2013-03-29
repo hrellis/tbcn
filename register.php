@@ -1,5 +1,5 @@
 <?php
-	include "template/templateStart.php";
+	include "templateStart.php";
 ?>
 
 <?php
@@ -38,5 +38,5 @@
 ?>
 
 <?php
-	include "template/templateEnd.php";
+	include "templateEnd.php";
 ?>

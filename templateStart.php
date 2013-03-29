@@ -16,7 +16,7 @@
     <meta property="og:description" content="Nursery Database" />
     <meta property="og:type" content="website" />
     
-    <link rel="stylesheet" type="text/css" href="/template/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
 <body>

@@ -11,7 +11,7 @@
 		</div>
 	</div>-->
 <?php
-	include "template/templateStart.php";
+	include "templateStart.php";
 ?>
 	<div id="menu">
 		<ul>
@@ -28,8 +28,8 @@
         </div><!--col1-->
         
         <div id="column2">
-			<h2>Register Child</h2>
-			<form action="/register/registerGuardianForm.php" method="post">
+			<h2>Register Staff</h2>
+			<form action="/register/registerStaff.php" method="post">
 				<table>
 					<tr>
 						<td>First Name: </td>
@@ -42,21 +42,20 @@
 					</tr>
                     
 					<tr>
-                        <td>Gender: </td>
+                        <td>Role: </td>
                         <td>
-                            <select name="gender">
-                                <option value="male">Male</option>
-                                <option value="female">Female</option>
+                            <select name="role">
+                                <option value="admin">Admin</option>
+                                <option value="other">Other</option>
                             </select>
                         </td>
 					</tr>
                     
 					<tr>
-                        <td>Date of birth: </td>
+                        <td>Currently Employed: </td>
                         <td>
-                            <input type="text" name="day" placeholder="day"/>
-                            <input type="text" name="month" placeholder="month"/>
-                            <input type="text" name="year" placeholder="year" />
+                            <input type="radio" name="employed" id="employed" value="1" />Yes
+                            <input type="radio" name="employed" id="employed" value="0" />No
                         </td>
 					</tr>
                     
@@ -90,17 +89,39 @@
                         <td><input type="text" name="country"></td>
 					</tr>
                     
-                    <tr>
-                        <td>Currently Enrolled: </td>
-                        <td>
-                            <input type="radio" name="enrolled" id="enrolled" value="1" />Yes
-                            <input type="radio" name="enrolled" id="enrolled" value="0" />No
-                        </td>
+					<tr>
+                        <td>Mobile Number: </td>
+                        <td><input type="text" name="mobile"></td>
+					</tr>
+                    
+					<tr>
+                        <td>Home Phone Number: </td>
+                        <td><input type="text" name="phone"></td>
+					</tr>
+                    
+					<tr>
+                        <td>Email: </td>
+                        <td><input type="text" name="email"></td>
+					</tr>
+                    
+					<tr>
+                        <td>Username: </td>
+                        <td><input type="text" name="user"></td>
+					</tr>
+                    
+					<tr>
+                        <td>Password: </td>
+                        <td><input type="password" name="password"></td>
+					</tr>
+                    
+					<tr>
+                        <td>Confirm Password: </td>
+                        <td><input type="password" name="confirmpassword"></td>
 					</tr>
                     
 					<tr>
                         <td></td>
-                        <td><input type="submit" name="Next: Add Guardian"></td>
+                        <td><input type="submit" name="submit"></td>
                     </tr>
 				</table>
 			</form>
@@ -113,5 +134,5 @@
 	</div><!--3columns-->
     
 <?php
-	include "template/templateEnd.php";
+	include "templateEnd.php";
 ?>

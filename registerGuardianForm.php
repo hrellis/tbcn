@@ -11,7 +11,7 @@
 		</div>
 	</div>-->
 <?php
-	include "template/templateStart.php";
+	include "templateStart.php";
 ?>
 	<div id="menu">
 		<ul>
@@ -188,5 +188,5 @@
 	</div><!--3columns-->
     
 <?php
-	include "template/templateEnd.php";
+	include "templateEnd.php";
 ?>

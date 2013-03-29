@@ -40,8 +40,8 @@
 	} 
 	else 
 	{ 
-		include 'template/templateStart.php';
+		include 'templateStart.php';
 		echo 'Data Does Not Match <br /> Re-Enter UserName and Password'; 
-		include 'template/templateEnd.php';
+		include 'templateEnd.php';
 	} 
 ?>
