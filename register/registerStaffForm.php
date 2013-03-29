@@ -29,7 +29,7 @@
         
         <div id="column2">
 			<h2>Register Staff</h2>
-			<form action="registerStaff.php" method="post">
+			<form action="/register/registerStaff.php" method="post">
 				<table>
 					<tr>
 						<td>First Name: </td>

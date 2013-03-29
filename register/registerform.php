@@ -9,7 +9,7 @@
         
         <div id="column2">
 			<h2>Register a child</h2>
-			<form id="form1" name="form1" method="post" action="register.php">
+			<form id="form1" name="form1" method="post" action="/register/register.php">
 				<table>
 					<tr>
 						<td>Username: </td>

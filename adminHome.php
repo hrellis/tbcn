@@ -4,9 +4,11 @@
 
 <div id="menu">
 		<ul>
-			<li class="#"><a href="#">Manage Children</a></h1>
-			<li class="current_page_item"><a href="#">Manage Staff</a></h1>
-			<li><a href="logout.php">Logout</a></h1>
+        	<li class="current_page_item"><a href="/adminHome.php">Admin Home </a></l1>
+			<li ><a href="/manageChildren.php">Manage Children</a></l1>
+			<li ><a href="/manageStaff.php">Manage Staff</a></l1>
+            <li ><a href="/fees.php">Fees</a></l1>
+			<li><a href="/logout.php">Logout</a></l1>
 		</ul>
 	</div>-->
 
@@ -15,10 +17,12 @@
         
         <div id="column1">
 			<p></p>
+            <li>
 		</div><!--col1-->
         
 		<div id="column2">
-			<p></p>
+			<h1>Fees not yet paid</h1>
+            
 		</div><!--col2-->
         
 		<div id="column3">
