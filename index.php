@@ -11,7 +11,7 @@
             <ul>
                 <li><a href="http://www.teddybearclubnursery.co.uk/">Nursery Homepage</a></li>
                 <li><a href="index.php">Login</a></li>
-                <li><a href="../register/registerform.php">Register</a></li>
+                <li><a href="registerform.php">Register</a></li>
             </ul>
         </div><!--menu-->
         
