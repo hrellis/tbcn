@@ -30,7 +30,7 @@
 			mysql_query($sql2,$con);
 			mysql_query($sql3,$con);
 			
-			header('location:success_register.php');
+			header('location:success.php');
 		} 
 		else //else let user know that passwords do not match
 		{

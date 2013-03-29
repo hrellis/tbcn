@@ -15,7 +15,11 @@
 ?>
 	<div id="menu">
 		<ul>
-			<li class="current_page_item"><a href="#">Add Staff</a></h1>
+			<li><a href="http://www.teddybearclubnursery.co.uk/">Nursery Homepage</a></li>
+                <li><a href="registerGuardianChild.php">Register Child</a></li>
+                <li><a href="registerStaffForm.php">Register Staff</a></li>
+                <li><a href="viewFees.php">View Fees</a></li>
+                <li><a href="logout.php">Logout</a></li><li class="current_page_item"><a href="#">Add Staff</a></h1>
 			<li><a href="logout.php">Logout</a></h1>
 		</ul>
     </div><!--menu-->
@@ -29,7 +33,7 @@
         
         <div id="column2">
 			<h2>Register Staff</h2>
-			<form action="/register/registerStaff.php" method="post">
+			<form action="registerStaff.php" method="post">
 				<table>
 					<tr>
 						<td>First Name: </td>
